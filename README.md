@@ -47,16 +47,16 @@ GusProjekt/
 Upewnij się, że znajdujesz się w docelowym katalogu roboczym, a następnie pobierz projekt:
 *  git clone <url_twojego_repozytorium_na_githubie>
 cd GusProjekt
-* **2. Utworzenie i aktywacja środowiska wirtualnego
+* 2. Utworzenie i aktywacja środowiska wirtualnego
 Bash
 * python -m venv venv
 * venv\Scripts\activate
-* **3. Instalacja wymaganych bibliotek
+ 3. Instalacja wymaganych bibliotek
 Zainstaluj wszystkie zależności zdefiniowane w pliku requirements.txt:
 * pip install -r requirements.txt
-* 4. Przygotowanie danych (Proces ETL)
+ 4. Przygotowanie danych (Proces ETL)
 Przed pierwszym uruchomieniem aplikacji należy uruchomić skrypt, który pobierze surowe pliki GUS z folderu /data/, oczyści je i wygeneruje docelową bazę analityczną w formacie CSV:
 * python convert_data.py
-* 5. Uruchomienie aplikacji Flask
+ 5. Uruchomienie aplikacji Flask
 Uruchom serwer deweloperski za pomocą pliku startowego:
 * python run.py
