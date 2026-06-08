@@ -1,10 +1,10 @@
-# 📊 Interaktywna Analiza Rynku Nieruchomości w Polsce (dane GUS)
+#  Interaktywna Analiza Rynku Nieruchomości w Polsce (dane GUS)
 
 Aplikacja internetowa typu *end-to-end* integrująca etap czyszczenia i transformacji surowych danych statystycznych Głównego Urzędu Statystycznego (GUS) z bezpiecznym, autoryzowanym panelem raportowym. Projekt umożliwia badanie relacji cen mieszkań na rynku wtórnym do przeciętnych miesięcznych wynagrodzeń w 16 województwach na przełomie lat 2023–2024.
 
 ---
 
-## 🚀 Stos technologiczny
+##  Stos technologiczny
 
 * **Język programowania:** Python 3.12+
 * **Backend:** Flask (Routing, System fabryki aplikacji, Blueprints)
@@ -16,7 +16,7 @@ Aplikacja internetowa typu *end-to-end* integrująca etap czyszczenia i transfor
 
 ---
 
-## 📁 Struktura katalogów projektu
+##  Struktura katalogów projektu
 
 ```text
 GusProjekt/
@@ -48,7 +48,7 @@ Upewnij się, że znajdujesz się w docelowym katalogu roboczym, a następnie po
 git clone <url_twojego_repozytorium_na_githubie>
 cd GusProjekt
 2. Utworzenie i aktywacja środowiska wirtualnego
-## Bash
+Bash
 python -m venv venv
 venv\Scripts\activate
 3. Instalacja wymaganych bibliotek
